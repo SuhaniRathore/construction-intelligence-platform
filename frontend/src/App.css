@@ -1,0 +1,15 @@
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,sans-serif;background:#f3f5f9;color:#1b2430}
+header{background:#1d4ed8;color:#fff;padding:24px;text-align:center}header h1{margin:0;font-size:1.6rem}header p{margin:6px 0 0;opacity:.85}
+nav{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;padding:16px}
+nav button{border:1px solid #cbd5e1;background:#fff;padding:8px 14px;border-radius:999px;cursor:pointer}
+nav button.on{background:#111827;color:#fff;border-color:#111827}
+main{max-width:760px;margin:0 auto;padding:0 16px 40px}.stack{display:grid;gap:16px}
+.card{background:#fff;border-radius:12px;padding:20px;box-shadow:0 1px 4px #0001;display:grid;gap:12px}
+.card h2{margin:0}label{display:grid;gap:4px;font-size:.9rem;font-weight:600}
+input,select{padding:8px;border:1px solid #cbd5e1;border-radius:8px;font:inherit}
+.card>button{background:#1d4ed8;color:#fff;border:0;padding:10px;border-radius:8px;cursor:pointer;font-weight:600}
+.card>button:disabled{opacity:.6}.err{color:#b91c1c;margin:0}
+.result{background:#f8fafc;border-radius:8px;padding:12px;display:grid;gap:8px}
+.row{display:grid;grid-template-columns:150px 1fr;gap:8px;font-size:.9rem}.row b{text-transform:capitalize}
+.row ul{margin:0;padding-left:18px}pre{margin:0;white-space:pre-wrap;font-size:.8rem}
+@media(max-width:560px){.row{grid-template-columns:1fr}}
